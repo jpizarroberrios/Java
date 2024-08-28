@@ -58,4 +58,12 @@ public class Condiciones {
         }
     }
     
+    public static void main(String[] args){
+        condicios con1= new Condiciones(15,"Juan");
+        con1.pruebaCondiciones();
+        System.out.println(con1.getEdad());
+        con1.setEdad(4);
+    }
+    
 }
+
